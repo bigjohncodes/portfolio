@@ -1,5 +1,5 @@
 import React from "react";
-import { SiKaggle, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export const Footer: React.FC = () => {
   return (
@@ -8,22 +8,13 @@ export const Footer: React.FC = () => {
         {/* Left: message */}
         <div>
           Designed &amp; coded with ☕ + ❤️ by{" "}
-          <span className="font-medium text-[var(--text)]">satya</span>
+          <span className="font-medium text-[var(--text)]">John AGBOOLA</span>
         </div>
 
         {/* Right: social icons */}
         <div className="flex items-center gap-4">
           <a
-            href="https://www.kaggle.com/satyasubudhi"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Kaggle"
-            className="hover:text-[var(--text)] transition-colors"
-          >
-            <SiKaggle size={40} />
-          </a>
-          <a
-            href="https://github.com/satya00089"
+            href="https://github.com/bigjohncodes"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -32,7 +23,7 @@ export const Footer: React.FC = () => {
             <SiGithub size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/satya-subudhi/"
+            href="https://linkedin.com/in/john-agboola-81a5a52a9"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"

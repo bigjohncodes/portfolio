@@ -82,10 +82,10 @@ const PortfolioPage: React.FC = () => {
               <div className="mt-2">
                 <div className="font-semibold">Quick contact</div>
                 <div className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Email: satyasubudhi089@gmail.com
+                  Email: johnagboola73@gmail.com
                 </div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">
-                  Location: Remote
+                  Location: Lagos, Nigeria
                 </div>
               </div>
               <div className="mt-auto">

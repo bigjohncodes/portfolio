@@ -2,20 +2,20 @@
 import React, { useState } from "react";
 import { ThemeProvider } from "../components/ThemeProvider";
 import { Header } from "../components/shared/Header";
-import { ProjectsGrid } from "../components/ProjectsGrid";
+// import { ProjectsGrid } from "../components/ProjectsGrid";
 import { SkillsList } from "../components/SkillsList";
 import { ContactForm } from "../components/ContactForm";
 import { Footer } from "../components/shared/Footer";
 import { PORTFOLIO_INFO } from "../config/portfolioData";
 import { About } from "../components/About";
-import type { Project } from "../types/portfolio";
-import { ProjectModal } from "../components/ProjectModal";
+// import type { Project } from "../types/portfolio";
+// import { ProjectModal } from "../components/ProjectModal";
 import { ScrollProgressBar } from "../components/shared/ScrollProgressBar";
 import { ScrollToTop } from "../components/shared/ScrollToTop";
 import CLIResume from "../components/CLIResume";
 
 const PortfolioPage: React.FC = () => {
-  const [selected, setSelected] = useState<Project | null>(null);
+  // const [selected, setSelected] = useState<Project | null>(null);
   const [showCLI, setShowCLI] = useState(false);
 
   return (
@@ -24,7 +24,7 @@ const PortfolioPage: React.FC = () => {
       <Header
         links={[
           { href: "#about", label: "About" },
-          { href: "#projects", label: "Projects" },
+          // { href: "#projects", label: "Projects" },
           { href: "#skills", label: "Skills" },
           { href: "#contact", label: "Contact" },
         ]}
@@ -41,7 +41,7 @@ const PortfolioPage: React.FC = () => {
           <About personal={PORTFOLIO_INFO.personal} />
         </section>
 
-        <section id="projects" className="py-8">
+        {/* <section id="projects" className="py-8">
           <h2 className="text-2xl font-semibold text-[var(--brand)]">
             Projects
           </h2>
@@ -49,7 +49,7 @@ const PortfolioPage: React.FC = () => {
             Selected work — click a card for details.
           </p>
           <ProjectsGrid projects={PORTFOLIO_INFO.projects} onOpen={setSelected} />
-        </section>
+        </section> */}
 
         <section id="skills" className="py-8">
           <h2 className="text-2xl font-semibold text-[var(--brand)]">Skills</h2>
@@ -104,11 +104,11 @@ const PortfolioPage: React.FC = () => {
       <ScrollToTop />
       <Footer />
 
-      <ProjectModal
+      {/* <ProjectModal
         project={selected}
         open={!!selected}
         onClose={() => setSelected(null)}
-      />
+      /> */}
     </ThemeProvider>
   );
 };

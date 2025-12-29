@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features an interactive project showcase, skills visualization, CLI-style resume, and smooth animations.
 
-🔗 **Live Demo**: [https://satya00089.github.io/portfolio](https://satya00089.github.io/portfolio)
+🔗 **Live Demo**: [https://bigjohncodes.github.io/portfolio](https://johnagboola.com)
 
 > Free, modern developer portfolio template with:
 > 
@@ -13,9 +13,9 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 ## 📸 Preview
 
-![Home Preview](public/preview-home.png)
+![Home Preview](public/john.png)
 
-![CLI Resume Preview](public/preview-cli.png)
+![CLI Resume Preview](public/john-cli.png)
 
 ## ✨ Features
 
@@ -43,7 +43,7 @@ This repository is intended to be a ready-to-customize portfolio template. There
 ### Option B — Clone directly
 
 ```bash
-git clone https://github.com/satya00089/portfolio.git my-portfolio
+git clone https://github.com/bigjohncodes/portfolio.git my-portfolio
 cd my-portfolio
 npm install
 npm run dev
@@ -63,9 +63,9 @@ All site content (projects, skills, education, experience, and basic profile inf
 
 ## ☁️ One-click Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/satya00089/portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/bigjohncodes/portfolio)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/satya00089/portfolio)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bigjohncodes/portfolio)
 
 ## 🛠️ Tech Stack
 
@@ -114,7 +114,7 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/satya00089/portfolio.git
+git clone https://github.com/bigjohncodes/portfolio.git
 cd portfolio
 ```
 
@@ -171,13 +171,13 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Satya Subudhi**
-- GitHub: [@satya00089](https://github.com/satya00089)
-- Email: satyasubudhi089@gmail.com
+**John Agboola**
+- GitHub: [@bigjohncodes](https://github.com/bigjohncodes)
+- Email: johnagboola73@gmail.com
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/satya00089/portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/bigjohncodes/portfolio/issues).
 
 ---
 

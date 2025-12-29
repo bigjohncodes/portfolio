@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features an interactive project showcase, skills visualization, CLI-style resume, and smooth animations.
 
-🔗 **Live Demo**: [[https://bigjohncodes.github.io/portfolio](https://johnagboola.com)](https://johnagboola.com)
+🔗 **Live Demo**: [[https://johnagboola.com](https://johnagboola.com)](https://johnagboola.com)
 
 > Free, modern developer portfolio template with:
 > 
